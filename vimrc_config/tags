@@ -1,0 +1,102 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+""	.\General.vim	/^inoremap "" ""<Esc>i$/;"	m
+''	.\General.vim	/^inoremap '' ''<Esc>i$/;"	m
+()	.\General.vim	/^inoremap () ()<Esc>i$/;"	m
+<>	.\General.vim	/^inoremap <> <><Esc>i$/;"	m
+<C-h>	.\General.vim	/^inoremap <C-h> <left>$/;"	m
+<C-j>	.\General.vim	/^inoremap <C-j> <C-o>gj$/;"	m
+<C-k>	.\General.vim	/^inoremap <C-k> <C-o>gk$/;"	m
+<C-l>	.\General.vim	/^inoremap <C-l> <right>$/;"	m
+<Esc>	.\General.vim	/^inoremap <expr><Esc> pumvisible()?"\\<C-E>":"\\<Esc>" $/;"	m
+<F3>	.\Plugin.vim	/^imap <F3> <ESC>:!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q<CR>:TlistUpdate<CR><CR>$/;"	m
+<F3>	.\Plugin.vim	/^nmap <F3> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q<CR>:TlistUpdate<CR><CR> $/;"	m
+<F5>	.\CompileRun.vim	/^map <F5> :call CompileRun()<CR><CR>$/;"	m
+<F6>	.\CompileRun.vim	/^map <F6> :call Do_make()<CR>$/;"	m
+<F8>	.\CompileRun.vim	/^map <F8> :call Rungdb()<CR>$/;"	m
+<c-F11>	.\General.vim	/^map <silent> <c-F11> :$/;"	m
+<c-F6>	.\CompileRun.vim	/^map <c-F6> :silent make clean<CR>$/;"	m
+<c-h>	.\Plugin.vim	/^noremap <c-h> <c-w>h$/;"	m
+<c-j>	.\Plugin.vim	/^noremap <c-j> <c-w>j$/;"	m
+<c-k>	.\Plugin.vim	/^noremap <c-k> <c-w>k$/;"	m
+<c-l>	.\Plugin.vim	/^noremap <c-l> <c-w>l$/;"	m
+<space>	.\General.vim	/^nnoremap <space> @=((foldclosed(line('.')) < 0) ? 'zc' : 'zo')<CR>$/;"	m
+CheckPythonSyntax	.\CompileRun.vim	/^function! CheckPythonSyntax() $/;"	f
+CompileRun	.\CompileRun.vim	/^func! CompileRun()$/;"	f
+Do_OneFileMake	.\CompileRun.vim	/^function! Do_OneFileMake()$/;"	f
+Do_make	.\CompileRun.vim	/^function! Do_make()$/;"	f
+NERDChristmasTree	.\Plugin.vim	/^let NERDChristmasTree=1$/;"	v
+NERDSpaceDelims	.\Plugin.vim	/^let NERDSpaceDelims = 1                     "在左注释符之后，右注释符之前留有空格$/;"	v
+NERDTreeAutoCenter	.\Plugin.vim	/^let NERDTreeAutoCenter=1$/;"	v
+NERDTreeChDirMode	.\Plugin.vim	/^let NERDTreeChDirMode=1$/;"	v
+NERDTreeMouseMode	.\Plugin.vim	/^let NERDTreeMouseMode=2$/;"	v
+NERDTreeShowBookmarks	.\Plugin.vim	/^let NERDTreeShowBookmarks=1$/;"	v
+NERDTreeShowFiles	.\Plugin.vim	/^let NERDTreeShowFiles=1$/;"	v
+NERDTreeShowLineNumbers	.\Plugin.vim	/^let NERDTreeShowLineNumbers=0$/;"	v
+NERDTreeWinPos	.\Plugin.vim	/^let NERDTreeWinPos='left'$/;"	v
+NERDTreeWinSize	.\Plugin.vim	/^let NERDTreeWinSize=31$/;"	v
+NERDTree_IsValid	.\Plugin.vim	/^function! NERDTree_IsValid()$/;"	f
+NERDTree_Start	.\Plugin.vim	/^function! NERDTree_Start()$/;"	f
+OmniCpp_DefaultNamespaces	.\Plugin.vim	/^let OmniCpp_DefaultNamespaces = ["std", "_GLIBCXX_STD"]$/;"	v
+OmniCpp_GlobalScopeSearch	.\Plugin.vim	/^let OmniCpp_GlobalScopeSearch = 1$/;"	v
+OmniCpp_MayCompleteArrow	.\Plugin.vim	/^let OmniCpp_MayCompleteArrow = 1 " autocomplete after ->$/;"	v
+OmniCpp_MayCompleteDot	.\Plugin.vim	/^let OmniCpp_MayCompleteDot = 1 " autocomplete after .$/;"	v
+OmniCpp_MayCompleteScope	.\Plugin.vim	/^let OmniCpp_MayCompleteScope = 1 " autocomplete after ::$/;"	v
+OmniCpp_NamespaceSearch	.\Plugin.vim	/^let OmniCpp_NamespaceSearch = 1$/;"	v
+OmniCpp_SelectFirstItem	.\Plugin.vim	/^let OmniCpp_SelectFirstItem =  0$/;"	v
+OmniCpp_ShowAccess	.\Plugin.vim	/^let OmniCpp_ShowAccess = 1$/;"	v
+OmniCpp_ShowPrototypeInAbbr	.\Plugin.vim	/^let OmniCpp_ShowPrototypeInAbbr = 1 " show function parameters$/;"	v
+Rungdb	.\CompileRun.vim	/^func! Rungdb()$/;"	f
+Tlist_Exit_OnlyWindow	.\Plugin.vim	/^let Tlist_Exit_OnlyWindow=1                 "如果Taglist窗口是最后一个窗口则退出Vim$/;"	v
+Tlist_File_Fold_Auto_Close	.\Plugin.vim	/^let Tlist_File_Fold_Auto_Close=1            "自动折叠$/;"	v
+Tlist_Show_One_File	.\Plugin.vim	/^let Tlist_Show_One_File=1                   "只显示当前文件的tags$/;"	v
+Tlist_Use_Right_Window	.\Plugin.vim	/^let Tlist_Use_Right_Window=1                "在右侧窗口中显示$/;"	v
+Tlist_WinWidth	.\Plugin.vim	/^let Tlist_WinWidth=30                       "设置窗口宽度$/;"	v
+[]	.\General.vim	/^inoremap [] []<Esc>i$/;"	m
+ff	.\General.vim	/^vmap ff "zdi<?=$this->_('<C-R>z');?><ESC>$/;"	m
+fg	.\Plugin.vim	/^map fg : Dox<cr>$/;"	m
+g:DoxygenToolkit_authorName	.\Plugin.vim	/^let g:DoxygenToolkit_authorName="zfliu"$/;"	v
+g:DoxygenToolkit_briefTag_funcName	.\Plugin.vim	/^let g:DoxygenToolkit_briefTag_funcName = "no"$/;"	v
+g:DoxygenToolkit_briefTag_pre	.\Plugin.vim	/^let g:DoxygenToolkit_briefTag_pre = "@brief\\t"$/;"	v
+g:DoxygenToolkit_licenseTag	.\Plugin.vim	/^let g:DoxygenToolkit_licenseTag="My own license\\<enter>"$/;"	v
+g:DoxygenToolkit_maxFunctionProtoLines	.\Plugin.vim	/^let g:DoxygenToolkit_maxFunctionProtoLines = 30$/;"	v
+g:DoxygenToolkit_paramTag_pre	.\Plugin.vim	/^let g:DoxygenToolkit_paramTag_pre = "@param\\t"$/;"	v
+g:DoxygenToolkit_returnTag	.\Plugin.vim	/^let g:DoxygenToolkit_returnTag = "@return\\t"$/;"	v
+g:DoxygenToolkit_undocTag	.\Plugin.vim	/^let g:DoxygenToolkit_undocTag="DOXIGEN_SKIP_BLOCK"$/;"	v
+g:NERDTree_title	.\Plugin.vim	/^let g:NERDTree_title='NERD Tree'$/;"	v
+g:SuperTabDefaultCompletionType	.\Plugin.vim	/^let g:SuperTabDefaultCompletionType="context"$/;"	v
+g:SuperTabMappingForward	.\Plugin.vim	/^let g:SuperTabMappingForward = '<tab>'$/;"	v
+g:neocomplcache_disable_auto_complete	.\Plugin.vim	/^let g:neocomplcache_disable_auto_complete = 0 "不自动弹出补全列表$/;"	v
+g:neocomplcache_enable_at_startup	.\Plugin.vim	/^let g:neocomplcache_enable_at_startup = 1     "vim 启动时启用插件$/;"	v
+g:neocomplcache_enable_auto_select	.\Plugin.vim	/^let g:neocomplcache_enable_auto_select = 0  "AutoComplPop like behavior.$/;"	v
+g:neocomplcache_enable_quick_match	.\Plugin.vim	/^let g:neocomplcache_enable_quick_match = 1$/;"	v
+g:neocomplcache_keyword_patterns	.\Plugin.vim	/^let g:neocomplcache_keyword_patterns = {}$/;"	v
+g:neocomplcache_keyword_patterns	.\Plugin.vim	/^let g:neocomplcache_keyword_patterns['default'] = '\\h\\w*'$/;"	v
+g:neocomplete#enable_at_startup	.\Plugin.vim	/^let g:neocomplete#enable_at_startup = 1    "vim启动时启用插件$/;"	v
+g:neocomplete#keyword_patterns	.\Plugin.vim	/^  let g:neocomplete#keyword_patterns = {}$/;"	v
+g:neocomplete#keyword_patterns	.\Plugin.vim	/^let g:neocomplete#keyword_patterns._ = '\\h\\w*'$/;"	v
+g:pydiction_location	.\Plugin.vim	/^let g:pydiction_location = '$VIM\/vimfiles\/bundle\/pydiction\/complete-dict'$/;"	v
+g:pydiction_menu_height	.\Plugin.vim	/^let g:pydiction_menu_height = 20$/;"	v
+g:tagbar_width	.\Plugin.vim	/^let g:tagbar_width=30                       "设置窗口宽度$/;"	v
+g:winManagerWindowLayout	.\Plugin.vim	/^let g:winManagerWindowLayout='NERDTree|TagList'$/;"	v
+g:xptemplate_fallback	.\Plugin.vim	/^let g:xptemplate_fallback = '0'$/;"	v
+g:xptemplate_key	.\Plugin.vim	/^let g:xptemplate_key = '<c-Tab>'$/;"	v
+g:xptemplate_pum_tab_nav	.\Plugin.vim	/^let g:xptemplate_pum_tab_nav = 1$/;"	v
+g:ycm_cache_omnifunc	.\Plugin.vim	/^let g:ycm_cache_omnifunc=0$/;"	v
+g:ycm_collect_identifiers_from_tags_files	.\Plugin.vim	/^let g:ycm_collect_identifiers_from_tags_files=1$/;"	v
+g:ycm_complete_in_comments	.\Plugin.vim	/^let g:ycm_complete_in_comments=1$/;"	v
+g:ycm_confirm_extra_conf	.\Plugin.vim	/^let g:ycm_confirm_extra_conf=0$/;"	v
+g:ycm_global_ycm_extra_conf	.\Plugin.vim	/^let g:ycm_global_ycm_extra_conf = 'D:\/Vim\/vimfiles\/bundle\/YouCompleteMe\/python\/.ycm_extra_conf.py'$/;"	v
+g:ycm_key_invoke_completion	.\Plugin.vim	/^let g:ycm_key_invoke_completion = '<M-;>'$/;"	v
+g:ycm_min_num_of_chars_for_completion	.\Plugin.vim	/^let g:ycm_min_num_of_chars_for_completion=1$/;"	v
+g:ycm_seed_identifiers_with_syntax	.\Plugin.vim	/^let g:ycm_seed_identifiers_with_syntax=1$/;"	v
+mm	.\General.vim	/^nmap mm :%s\/\\r\/\/g<cr>$/;"	m
+nt	.\Plugin.vim	/^nmap nt :NERDTree<CR>$/;"	m
+tb	.\Plugin.vim	/^nmap tb :TlistClose<CR>:TagbarToggle<CR>$/;"	m
+tl	.\Plugin.vim	/^nmap tl :TagbarClose<CR>:Tlist<CR>$/;"	m
+wm	.\Plugin.vim	/^nmap wm :if IsWinManagerVisible() <BAR> WMToggle<CR> <BAR> else <BAR> WMToggle<CR>:q<CR> endif <CR> $/;"	m
+{}	.\General.vim	/^inoremap {} {}<Left><Enter><Esc>O$/;"	m
